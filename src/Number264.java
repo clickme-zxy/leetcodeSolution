@@ -31,6 +31,7 @@ public class Number264 {
     4: arr*4
     依次，可以计算出arr的后一位，所以，取三个数中的最小值；然后就可以；
     * */
+    // 时间复杂度O（n） 空间复杂度O(n)
     public int nthUglyNumber2(int n) {
         int [] number=new int[n+1];
         number[1]=1;
